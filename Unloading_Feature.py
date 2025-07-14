@@ -135,7 +135,7 @@ if __name__ == "__main__":
     #Place rectangles using zone logic
     placed_rectangles = zone_based_placement(rectangles_by_type)
 
-    #Visualize and report
+    #Visualize 
     visualize_packing(placed_rectangles)
     wasted = calculate_wasted_area(placed_rectangles)
     print("Total wasted area:", wasted)
